@@ -10,7 +10,7 @@
 ## Reporting
 ### Raw Table
 
-![[Raw_Tabel.png]]
+![image](https://raw.githubusercontent.com/saktisadhana/DBS-26/main/MODUL%202/Image%20Source/Raw_Tabel.png)
 
 Praktikan diberikan sebuah tabel yang bermaksud untuk mendata penyewaan studio milik "Musica Studio". Bisa dilihat pada kolom `Member_Band` dan juga `Alat_Tambahan` masih terdapat  _multivalued attributes_ (Atribut yang bernilai ganda). 
 
@@ -19,7 +19,7 @@ Sehingga diperlukan normalisasi data agar sistem dapat mengelola data secara bai
 
  Langkah pertama dalam normalisasi database (NF1) adalah dengan memisahkan atribut yang bernilai ganda menjadi _Atomic Value_ (Terpisah menjadi sel masing-masing)
 
-![[Pasted image 20260331220116.png]]
+![image](https://raw.githubusercontent.com/saktisadhana/DBS-26/main/MODUL%202/Image%20Source/Pasted%20image%2020260331220116.png)
 
 Selain itu juga, tabel diatas memenuhi beberapa sifat dari hasil normalisasi pertama (NF1) yaitu:
 1. Semua Nilai dalam Kolom Harus Bertipe Sama
@@ -39,18 +39,18 @@ Karena itu kita dapat memisahkan dua atribut yaiu `Alat_Tambahan` dan `Member_Ba
 
 #### Detailed Booking
 
-![[Pasted image 20260331233624.png|285]]
+![image](https://raw.githubusercontent.com/saktisadhana/DBS-26/main/MODUL%202/Image%20Source/Pasted%20image%2020260331233624.png)
 
 `Alat_Tambahan` dipisah menjadi tabelnya sendiri karena atribut tersebut bernilai ganda dan menyebabkan `ID_Booking` ditulis berulang kali sehingga menghilangkan fungsinya sebagai Primary Key tunggal.
 #### Detailed Band
 
-![[Pasted image 20260331221442.png|285]]
+![image](https://raw.githubusercontent.com/saktisadhana/DBS-26/main/MODUL%202/Image%20Source/Pasted%20image%2020260331221442.png)
 
 Sama seperti `Alat_Tambahan` atribut ini dipisah agar `ID_Booking` tidak ditulis berulang kali yang menghilangkan fungsinya sebagai Primary Key tunggal.
 
 #### Booking
 
-![[Pasted image 20260331220645.png]]
+![image](https://raw.githubusercontent.com/saktisadhana/DBS-26/main/MODUL%202/Image%20Source/Pasted%20image%2020260331220645.png)
 
 Bisa dilihat tabel lebih rapi dan terstruktur hanya dengan menghilangkan atribut yang bergantungan parsial terhadap _Primary Key_
 
@@ -66,30 +66,30 @@ Dalam tabel `Booking` atribut `Tarif_Ruang_Per_Jam` hanya bergantungan / dipenga
 Selain itu saya memilih untuk memisah Alat musik menjadi tabelnya sendiri dan juga menciptakan atribut baru bernama `ID_Alat`. Karena menurut saya sebuah alat musik tentunya bisa digunakan berkali-kali lain hari (Menyebabkan relasi tabel entitas `Booking` dengan `Alat_Musik` many to many)
 #### Staff
 
-![[Pasted image 20260331233114.png|285]]
+![image](https://raw.githubusercontent.com/saktisadhana/DBS-26/main/MODUL%202/Image%20Source/Pasted%20image%2020260331233114.png)
 #### Band
 
-![[Pasted image 20260331233717.png|285]]
+![image](https://raw.githubusercontent.com/saktisadhana/DBS-26/main/MODUL%202/Image%20Source/Pasted%20image%2020260331233717.png)
 #### Member_Band
 
-![[Pasted image 20260331233240.png|285]]
+![image](https://raw.githubusercontent.com/saktisadhana/DBS-26/main/MODUL%202/Image%20Source/Pasted%20image%2020260331233240.png)
 #### Ruang
 
-![[Pasted image 20260331232716.png|477]]
+![image](https://raw.githubusercontent.com/saktisadhana/DBS-26/main/MODUL%202/Image%20Source/Pasted%20image%2020260331232716.png)
 #### Alat
 
-![[Pasted image 20260331234321.png]]
+![image](https://raw.githubusercontent.com/saktisadhana/DBS-26/main/MODUL%202/Image%20Source/Pasted%20image%2020260331234321.png)
 #### Alat_Booking
 
-![[Pasted image 20260331234417.png|258]]
+![image](https://raw.githubusercontent.com/saktisadhana/DBS-26/main/MODUL%202/Image%20Source/Pasted%20image%2020260331234417.png)
 #### Booking
 
-![[Pasted image 20260331234505.png]]
+![image](https://raw.githubusercontent.com/saktisadhana/DBS-26/main/MODUL%202/Image%20Source/Pasted%20image%2020260331234505.png)
 
 ---
 ## Entity Relationship Diagram
 
-![[Modul2Prak.drawio.svg]]
+![image](https://raw.githubusercontent.com/saktisadhana/DBS-26/main/MODUL%202/Image%20Source/Modul2Prak.drawio.svg)
 
 ### Brief Overview
 
@@ -114,3 +114,4 @@ One to many
 
 #### Alat_Booking > Booking
 One to many
+

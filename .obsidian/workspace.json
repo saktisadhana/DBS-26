@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MODUL 2/5027251101_Putu Putra Sakti Sadhana_SEL_Modul2.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5027251101_Putu Putra Sakti Sadhana_SEL_Modul2"
+              "title": "README"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "dc008a1a257cad4a",
@@ -186,6 +185,9 @@
   },
   "active": "f5518ce2fc43cdfc",
   "lastOpenFiles": [
+    "MODUL 1/README.md",
+    "README.md",
+    "MODUL 2/README.md",
     "MODUL 2/Image Source/Raw_Tabel.png",
     "MODUL 2/5027251101_Putu Putra Sakti Sadhana_SEL_Modul2.md",
     "MODUL 2/Image Source/Pasted image 20260331221442.png",
@@ -197,7 +199,6 @@
     "MODUL 2/Image Source/Pasted image 20260331234321.png",
     "MODUL 2/Image Source/Pasted image 20260331233717.png",
     "MODUL 2/Image Source/Pasted image 20260331233624.png",
-    "MODUL 2/Image Source/Pasted image 20260331233240.png",
     "MODUL 1/5027251101_Putu Putra Sakti Sadhana_SEL_Modul1.md",
     "MODUL 2/Image Source",
     "MODUL 2",

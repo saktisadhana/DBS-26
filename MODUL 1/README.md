@@ -15,7 +15,7 @@ Menurut saya sesuai dengan study case soal, sistem *database* yang diperlukan me
 
 ---
 # Database System
-![[Diagram DBS Q3.svg]]
+![image](https://raw.githubusercontent.com/saktisadhana/DBS-26/main/MODUL%201/Image%20Source/Diagram%20DBS%20Q3.svg)
 ## Peserta
 ### Penjelasan
 Entitas peserta memiliki *primary key* `ID_Peserta` dengan atribut-atribut:
@@ -238,3 +238,4 @@ Dengan ini jika terdapat sebuah `Bahan-Baku` yang diperlukan oleh dua `Kit-Produ
 
 ### Relasi Entitas
 Dengan entitas `Kit_Bahan`, entitas ini memiliki relasi *one to many*.
+
