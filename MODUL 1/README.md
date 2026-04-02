@@ -1,4 +1,3 @@
-> [!info] Identitas
 > Nama: Putu Putra Sakti Sadhana
 > NRP: 5027251101
 > Kode Asisten: SEL
